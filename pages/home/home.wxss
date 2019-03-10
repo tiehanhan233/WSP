@@ -1,0 +1,46 @@
+/* pages/home/home.wxss */
+.container{
+
+
+}
+.lunbor{
+  width: 100%;
+  height: 130px;
+}
+.lunbor swiper-item,.lunbor swiper-item image{
+  width: 100%;
+}
+.title{
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-family: STHeiti;
+  font-weight: 8px;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #CDB79E
+}
+.left-cont {
+  width: 86px;
+  height: 700px;
+  background: #eee;
+}
+.left-menu{
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+}
+.menu-box {
+  width: 86px;
+  height: 40px;
+  background: #eee;
+  display: block;
+  line-height: 40px;
+  font-size: 16px;
+}
+.menu-box :hover {
+  width: 86px;
+  height: 40px;
+  background: #FFFFFF;
+  display: block;
+}

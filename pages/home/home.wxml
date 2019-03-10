@@ -1,0 +1,38 @@
+<!--pages/test/test.wxml-->
+<view class='container'>
+  <view class='placeholder'>
+
+  </view>
+
+  <swiper class='lunbor' autoplay='true' indicator-dots='true'>
+    <swiper-item>
+        <image src='images/lunbor-1.jpg'></image>
+    </swiper-item>
+     <swiper-item>
+        <image src='images/lunbor-2.jpg'></image>
+    </swiper-item>
+     <swiper-item>
+        <image src='images/lunbor-3.jpg'></image>
+    </swiper-item>
+  </swiper>
+
+  <view class='title'>
+    精品选择
+  </view>
+
+  <view class="container-dishes">
+    <view class="menu2">
+      <view class='left-cont'>
+        <view class="left-menu" wx:for="{{arry}}" wx:key="{{arry}}" wx:for-index="idx" bindtap="btnanniu">
+          <view class='menu-box'>
+            <text class=''>{{item.text}}</text>
+          </view>     
+        </view>
+      </view>
+      
+    </view>
+</view>
+
+
+
+</view>
